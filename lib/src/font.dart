@@ -2,6 +2,14 @@ import 'package:fitofan_ui/src/palette.dart';
 import 'package:flutter/material.dart';
 
 class Font {
+  static const tabletXLarge = TextStyle(
+    fontSize: 220,
+    color: Palette.typographyTextSecondaryLight,
+    fontWeight: FontWeight.w500,
+    fontFamily: 'Roboto',
+    height: 1,
+  );
+
   static const displayXLarge = TextStyle(
     fontSize: 96,
     color: Palette.typographyTextSecondaryLight,
@@ -64,7 +72,7 @@ class Font {
     fontSize: 16,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 24,
+    height: 1.5,
     fontFamily: 'Roboto',
   );
 
@@ -72,7 +80,7 @@ class Font {
     fontSize: 14,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 20,
+    height: 1.42,
     fontFamily: 'Roboto',
   );
 
@@ -88,7 +96,7 @@ class Font {
     fontSize: 14,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w400,
-    height: 20,
+    height: 1.42,
     fontFamily: 'Roboto',
     letterSpacing: 0.014,
   );
@@ -97,7 +105,7 @@ class Font {
     fontSize: 12,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w400,
-    height: 16,
+    height: 1.33,
     fontFamily: 'Roboto',
   );
 
@@ -113,7 +121,7 @@ class Font {
     fontSize: 14,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 20,
+    height: 1.42,
     fontFamily: 'Roboto',
   );
 
@@ -121,7 +129,7 @@ class Font {
     fontSize: 12,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 16,
+    height: 1.33,
     fontFamily: 'Roboto',
     letterSpacing: 0.24,
   );

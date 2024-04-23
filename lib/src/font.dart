@@ -7,7 +7,7 @@ class Font {
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
     fontFamily: 'Roboto',
-    height: 1,
+    height: 258 / 220,
   );
 
   static const displayXLarge = TextStyle(
@@ -15,6 +15,7 @@ class Font {
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
+    height: 258 / 220,
     letterSpacing: 1.92,
   );
 
@@ -23,6 +24,7 @@ class Font {
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
+    height: 113 / 96,
     letterSpacing: 1.92,
   );
 
@@ -30,6 +32,7 @@ class Font {
     fontSize: 80,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
+    height: 94 / 80,
     fontFamily: 'Roboto',
   );
 
@@ -37,6 +40,7 @@ class Font {
     fontSize: 64,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
+    height: 75 / 64,
     fontFamily: 'Roboto',
   );
 
@@ -44,6 +48,7 @@ class Font {
     fontSize: 48,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
+    height: 56 / 48,
     fontFamily: 'Roboto',
   );
 
@@ -51,6 +56,7 @@ class Font {
     fontSize: 36,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
+    height: 42 / 36,
     fontFamily: 'Roboto',
   );
 
@@ -58,6 +64,7 @@ class Font {
     fontSize: 32,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
+    height: 38 / 32,
     fontFamily: 'Roboto',
   );
 
@@ -65,6 +72,7 @@ class Font {
     fontSize: 24,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
+    height: 28 / 24,
     fontFamily: 'Roboto',
   );
 
@@ -72,7 +80,7 @@ class Font {
     fontSize: 16,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 1.5,
+    height: 24 / 16,
     fontFamily: 'Roboto',
   );
 
@@ -80,7 +88,7 @@ class Font {
     fontSize: 14,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 1.42,
+    height: 20 / 14,
     fontFamily: 'Roboto',
   );
 
@@ -88,7 +96,7 @@ class Font {
     fontSize: 16,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w400,
-    height: 24,
+    height: 24 / 16,
     fontFamily: 'Roboto',
   );
 
@@ -96,7 +104,7 @@ class Font {
     fontSize: 14,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w400,
-    height: 1.42,
+    height: 20 / 14,
     fontFamily: 'Roboto',
     letterSpacing: 0.014,
   );
@@ -105,7 +113,7 @@ class Font {
     fontSize: 12,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w400,
-    height: 1.33,
+    height: 16 / 12,
     fontFamily: 'Roboto',
   );
 
@@ -114,6 +122,7 @@ class Font {
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
+    height: 23 / 20,
     letterSpacing: 0.2,
   );
 
@@ -121,7 +130,7 @@ class Font {
     fontSize: 14,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 1.42,
+    height: 20 / 14,
     fontFamily: 'Roboto',
   );
 
@@ -129,7 +138,7 @@ class Font {
     fontSize: 12,
     color: Palette.typographyTextSecondaryLight,
     fontWeight: FontWeight.w500,
-    height: 1.33,
+    height: 16 / 12,
     fontFamily: 'Roboto',
     letterSpacing: 0.24,
   );

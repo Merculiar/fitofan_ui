@@ -5,7 +5,7 @@ class GradientButton extends StatefulWidget {
   const GradientButton({
     super.key,
     required this.onTap,
-    required this.text,
+    required this.child,
     this.textPadding = 16,
     this.borderRadius = 8,
     required this.gradient,
@@ -16,7 +16,7 @@ class GradientButton extends StatefulWidget {
   const GradientButton.pink({
     super.key,
     required this.onTap,
-    required this.text,
+    required this.child,
     this.textPadding = 16,
     this.borderRadius = 8,
     this.gradient = Palette.buttonsPinkGradient,
@@ -27,7 +27,7 @@ class GradientButton extends StatefulWidget {
   const GradientButton.purple({
     super.key,
     required this.onTap,
-    required this.text,
+    required this.child,
     this.textPadding = 16,
     this.borderRadius = 8,
     this.gradient = Palette.buttonsPurpleGradient,
@@ -38,7 +38,7 @@ class GradientButton extends StatefulWidget {
   const GradientButton.green({
     super.key,
     required this.onTap,
-    required this.text,
+    required this.child,
     this.textPadding = 16,
     this.borderRadius = 8,
     this.gradient = Palette.buttonsGreenGradient,
@@ -49,7 +49,7 @@ class GradientButton extends StatefulWidget {
   const GradientButton.orange({
     super.key,
     required this.onTap,
-    required this.text,
+    required this.child,
     this.textPadding = 16,
     this.borderRadius = 8,
     this.gradient = Palette.buttonsYellowOrangeGradient,
@@ -58,7 +58,7 @@ class GradientButton extends StatefulWidget {
   });
 
   final void Function()? onTap;
-  final String text;
+  final Widget child;
   final double textPadding;
   final double borderRadius;
   final LinearGradient gradient;
@@ -116,12 +116,9 @@ class _GradientButtonState extends State<GradientButton> {
           child: Center(
             child: Padding(
               padding: EdgeInsets.symmetric(vertical: widget.textPadding),
-              child: Text(
-                widget.text,
-                style: Font.headlineSmall.copyWith(
-                  color:
-                      Palette.surfaceWhite.withOpacity(isDisabled ? 0.34 : 1),
-                ),
+              child: Opacity(
+                opacity: isDisabled ? 0.34 : 1,
+                child: widget.child,
               ),
             ),
           ),

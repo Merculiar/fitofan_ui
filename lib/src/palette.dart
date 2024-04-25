@@ -89,6 +89,14 @@ class Palette {
         Color.fromRGBO(184, 57, 202, 1),
       ]);
 
+  static const buttonsPink3Gradient = LinearGradient(
+      begin: Alignment.topRight,
+      end: Alignment.bottomLeft,
+      colors: [
+        Color.fromRGBO(184, 57, 202, 1),
+        Color.fromRGBO(235, 96, 102, 1),
+      ]);
+
   static const buttonsPurpleGradient = LinearGradient(
       begin: Alignment.topRight,
       end: Alignment.bottomLeft,
